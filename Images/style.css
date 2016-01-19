@@ -1,0 +1,357 @@
+* {
+	margin: 0px; padding: 0px;
+}
+.clear {
+	line-height: 0px; clear: both; font-size: 0px;
+}
+body {
+	letter-spacing: 1px; font-family: Tahoma, Arial,Verdana,Helvetica,sans-serif; font-size: 12px; background-image: url("img/texture.png"); background-repeat: repeat; background-color: rgb(255, 237, 251);
+}
+h2 {
+	margin: 0px 20px 20px 30px; padding: 10px 0px; color: rgb(139, 25, 119); letter-spacing: 2px; font-size: 16px; border-bottom-color: rgb(139, 25, 119); border-bottom-width: 1px; border-bottom-style: solid;
+}
+img {
+	border: currentColor;
+}
+#main_pozadina {
+	width: 100%; height: 640px; text-align: center; background-image: url("img/zumba_devojche.png"); background-repeat: no-repeat;
+}
+#the_page {
+	margin: 0px auto; width: 1020px; text-align: center;
+}
+.top {
+	width: 1014px;
+}
+.middle {
+	width: 1014px;
+}
+.end {
+	width: 1014px;
+}
+.top {
+	height: 26px; background-image: url("img/top.png"); background-repeat: no-repeat;
+}
+.bf_mid {
+	width: 1014px;
+}
+.middle {
+	float: left; position: relative; background-image: url("img/middle.png");
+}
+.end {
+	height: 44px; background-image: url("img/end.png"); background-repeat: no-repeat;
+}
+.page {
+	margin: 0px auto; width: 970px; position: relative; z-index: 1;
+}
+.header {
+	text-align: left; position: relative; z-index: 1;
+}
+.header img {
+	width: 216px; height: 53px; padding-top: 4px; float: left;
+}
+#the_moto {
+	width: 664px; height: 53px; float: left; background-image: url("img/moto.png"); background-repeat: no-repeat;
+}
+.izbor_lang {
+	width: 80px; height: 14px; float: right;
+}
+.izbor_lang img {
+	border: 0px currentColor; width: 26px; height: 26px; margin-top: 4px; margin-right: 8px; float: right;
+}
+#meni {
+	width: 100%; height: 70px; color: rgb(3, 162, 126); font-weight: bold; margin-top: 6px; position: relative; z-index: 300; background-image: url("img/bck_meni.png");
+}
+#meni ul {
+	list-style: none; width: 970px; text-align: center; line-height: 42px; letter-spacing: 1.5px; padding-top: 14px; padding-left: 128px; position: relative; z-index: 300;
+}
+#meni ul li {
+	padding: 0px 8px; float: left; display: inline; position: relative; z-index: 300;
+}
+#meni .engeng li {
+	padding: 0px 2px; margin-right: 9px;
+}
+#meni li ul {
+	left: -148px; top: 2px; width: 120px; display: none; position: absolute;
+}
+#meni ul li a {
+	width: 84px; height: 20px; color: rgb(3, 162, 126); text-decoration: none; float: left; display: block; z-index: 100;
+}
+#meni ul li a:visited {
+	width: 84px; height: 20px; color: rgb(3, 162, 126); text-decoration: none; float: left; display: block; z-index: 100;
+}
+#meni li:hover ul li a {
+	width: 150px;
+}
+#meni li a:hover ul li a {
+	width: 150px;
+}
+#meni .engeng li:hover ul li a {
+	padding-left: 8px;
+}
+.engeng#meni li a:hover ul li a {
+	padding-left: 8px;
+}
+#meni ul li a#dolg_link {
+	width: 118px;
+}
+#meni ul li a#dolg_link:hover {
+	width: 118px;
+}
+#meni ul li a:hover {
+	width: 84px; height: 20px; color: rgb(128, 2, 111); text-decoration: none; display: block; position: relative; z-index: -1;
+}
+#meni li:hover ul {
+	display: block; position: absolute; z-index: 100;
+}
+#meni li a:hover ul {
+	display: block; position: absolute; z-index: 100;
+}
+#meni li:hover ul li {
+	background: url("img/bck_meni_o.png") rgb(248, 248, 248); border: 1px solid rgb(238, 238, 238); width: 158px; height: 28px; text-align: left; line-height: 28px; display: block; z-index: 100;
+}
+#meni li a:hover ul li {
+	background: url("img/bck_meni_o.png") rgb(248, 248, 248); border: 1px solid rgb(238, 238, 238); width: 158px; height: 28px; text-align: left; line-height: 28px; display: block; z-index: 100;
+}
+#prv_sm_link {
+	border: currentColor; display: none; visibility: hidden;
+}
+#meni ul li a.selected {
+	color: rgb(128, 2, 111);
+}
+* html ul li {
+	height: 1%; float: left;
+}
+* html ul li a {
+	height: 1%;
+}
+.content {
+	width: 978px; text-align: left; margin-top: 8px; position: relative;
+}
+.main {
+	width: 852px; float: left; position: relative;
+}
+.glaven_banner {
+	width: 672px; float: left; position: relative;
+}
+.glaven_banner p span {
+	color: rgb(128, 2, 111);
+}
+.glaven_banner img {
+	width: 674px; position: relative;
+}
+.glaven_banner p {
+	margin: 0px 0px 14px 30px; width: 624px; text-align: justify; color: rgb(34, 34, 34); line-height: 18px; font-size: 12px;
+}
+.glaven_banner p i span span {
+	cursor: pointer;
+}
+.glaven_banner .instruktori {
+	width: 70px;
+}
+.glaven_banner p.np {
+	color: rgb(1, 132, 104);
+}
+.glaven_banner p.pp {
+	color: rgb(139, 25, 119);
+}
+.glaven_banner .promocii {
+	padding: 4px; width: 668px; border-bottom-color: rgb(139, 25, 119); border-bottom-width: 1px; border-bottom-style: solid; float: left; position: relative;
+}
+.glaven_banner .promocii img {
+	padding: 8px; width: 250px; float: left;
+}
+.glaven_banner .promocii div {
+	width: 360px; color: rgb(1, 132, 104); line-height: 22px; padding-left: 20px; font-size: 18px; float: left;
+}
+.glaven_banner .promocii a {
+	width: 360px; text-align: right; color: rgb(3, 162, 126); font-size: 14px; text-decoration: none; display: block;
+}
+.glaven_banner .promocii a:visited {
+	width: 360px; text-align: right; color: rgb(3, 162, 126); font-size: 14px; text-decoration: none; display: block;
+}
+.glaven_banner .promocii a:hover {
+	color: rgb(128, 2, 111);
+}
+.side {
+	width: 180px; margin-top: -4px; float: left;
+}
+.side_prom {
+	margin: 0px 0px 7px; width: 166px; height: 88px; float: left; display: block; background-image: url("img/side_bck.png");
+}
+.spll {
+	margin: 0px 10px 7px 2px;
+}
+.sp_title {
+	padding: 26px 8px 0px 4px; width: 70px; text-align: left; color: rgb(121, 24, 101); font-size: 12px; float: right; display: block;
+}
+.side_prom a {
+	color: rgb(3, 162, 126); padding-top: 10px; font-size: 10px;
+}
+.side_prom a:visited {
+	color: rgb(3, 162, 126); padding-top: 10px; font-size: 10px;
+}
+.side_prom a:hover {
+	color: rgb(128, 2, 111);
+}
+.sp_img {
+	padding: 8px 0px 0px 8px; width: 74px; float: left;
+}
+.sp_img img {
+	padding: 0px; height: 74px;
+}
+.sponzori {
+	width: 90px; margin-right: 14px; float: right;
+}
+.sponzori img {
+	padding: 0px 0px 20px; border: currentColor; width: 90px;
+}
+.footer {
+	width: 970px; margin-top: 10px; border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid;
+}
+.f_links {
+	margin: 10px 0px 0px 208px;
+}
+.f_links ul {
+	list-style: none; text-align: center; color: rgb(3, 162, 126); font-size: 12px; margin-top: 10px; margin-right: 80px;
+}
+.f_links ul li {
+	padding: 0px 4px; display: inline;
+}
+.f_links ul li a {
+	color: rgb(3, 162, 126); text-decoration: none;
+}
+.f_links ul li a:visited {
+	color: rgb(3, 162, 126); text-decoration: none;
+}
+.f_links ul li a div {
+	width: 60px; height: 20px; vertical-align: middle; display: inline;
+}
+.f_links ul li a:hover {
+	color: rgb(128, 2, 111); text-decoration: none;
+}
+.f_links ul li a.selected {
+	color: rgb(122, 28, 102);
+}
+.bck {
+	width: 674px; position: relative; background-image: url("img/bck.png"); background-repeat: no-repeat;
+}
+.lokacija {
+	width: 674px; position: relative; background-image: url("img/lokacija.png"); background-repeat: no-repeat;
+}
+.zumba {
+	width: 674px; position: relative; background-image: url("img/zumba.png"); background-repeat: no-repeat;
+}
+.pilates {
+	width: 674px; position: relative; background-image: url("img/pilates.png"); background-repeat: no-repeat;
+}
+.aerobik_step {
+	width: 674px; position: relative; background-image: url("img/aerobik_step.png"); background-repeat: no-repeat;
+}
+.aerobik_tae_bo {
+	width: 674px; position: relative; background-image: url("img/aerobik_tae_bo.png"); background-repeat: no-repeat;
+}
+.aerobik_Hi_Lo {
+	width: 674px; position: relative; background-image: url("img/aerobik_hi_lo.png"); background-repeat: no-repeat;
+}
+.joga {
+	width: 674px; position: relative; background-image: url("img/joga.png"); background-repeat: no-repeat;
+}
+.joga_za_bremeni {
+	width: 674px; position: relative; background-image: url("img/joga_za_bremeni.png"); background-repeat: no-repeat;
+}
+.ishrana {
+	width: 674px; position: relative; background-image: url("img/ishrana2.png"); background-repeat: no-repeat;
+}
+.zacleni p {
+	width: 270px; text-align: center; color: rgb(3, 162, 126); font-size: 20px; float: left;
+}
+.zacleni img {
+	width: 331px; float: right;
+}
+.contact p {
+	width: 400px; float: left;
+}
+.contact img {
+	width: 80px; float: left;
+}
+.contact iframe {
+	float: right;
+}
+.mail {
+	padding-top: 28px; float: left; display: block;
+}
+p.z_logo_out {
+	margin: 0px; padding: 30px 40px 10px 10px; width: 100px; float: right;
+}
+.z_logo_out img {
+	width: 80px;
+}
+table {
+	margin: 0px 0px 0px 30px; width: 582px; height: 4px; color: rgb(240, 240, 240);
+}
+tr.green {
+	width: 674px; position: relative; background-image: url("img/tabela.png");
+}
+td.green {
+	text-align: center; background-image: url("img/tabela.png");
+}
+tr.violet {
+	width: 674px; position: relative; background-image: url("img/violet.png");
+}
+td.violet {
+	text-align: center; background-image: url("img/violet.png");
+}
+tr.orange {
+	width: 674px; position: relative; background-image: url("img/orange.png");
+}
+td.orange {
+	text-align: center; background-image: url("img/orange.png");
+}
+tr.yelow {
+	width: 674px; position: relative; background-image: url("img/yelow.png");
+}
+td.yelow {
+	text-align: center; background-image: url("img/yelow.png");
+}
+tr.red {
+	width: 674px; position: relative; background-image: url("img/red.png");
+}
+td.red {
+	text-align: center; background-image: url("img/red.png");
+}
+.raspored td {
+	padding: 2px; text-align: center; color: rgb(122, 26, 102); border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.raspored td img {
+	margin: 0px; width: 60px;
+}
+.raspored td span {
+	color: rgb(0, 162, 128); font-size: 14px; font-weight: bold;
+}
+.raspored td.chas {
+	color: rgb(3, 160, 34); font-weight: bold;
+}
+.raspored td.den {
+	color: rgb(191, 45, 159); font-weight: bold;
+}
+.raspored td a {
+	color: rgb(122, 26, 102); text-decoration: none;
+}
+.raspored td a:hover {
+	color: rgb(122, 26, 102); text-decoration: underline;
+}
+td {
+	padding: 2px 2px 2px 8px; color: rgb(0, 0, 0);
+}
+input.checkbox {
+	margin-right: 10px;
+}
+.glaven_banner p span.notebelle {
+	color: red; font-weight: bold;
+}
+span.notebelle {
+	color: red; font-weight: bold;
+}
+span.ch_bch_b {
+	line-height: 22px;
+}
